@@ -1,0 +1,31 @@
+{
+  "name": "3ddentalhealthFront",
+  "homepage": "www.talentosolutions.com",
+  "authors": [
+    "jjrubio@talentosolutions.com"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "css-reset": "^2.5.1",
+    "scrollreveal": "^3.4.0",
+    "parallaxie": "^0.5.1",
+    "jquery": "^3.3.1",
+    "aos": "^2.2.0",
+    "swiper": "^4.1.6",
+    "css-hamburgers": "^0.9.3",
+    "typed.js": "^2.0.6",
+    "owl.carousel": "^2.3.3"
+  },
+  "resolutions": {
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,0 +1,114 @@
+#laserFirst {
+    height: 500px;
+    background-image: url();
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    #laserBG{
+        z-index: 100;
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/index/sli2.jpg);
+        background-size: cover; 
+        background-position: center;       
+        -webkit-animation: zoomin 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+}
+
+.titSli{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 3000 !important;
+    font-size: 50px;
+    font-weight: bold;
+    top:200px;
+    color: #fff;
+}
+.subTitSli {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 260px;
+    font-size: 50px;
+    font-weight: lighter;
+    z-index: 3000 !important;
+    color: #7bffff;
+}
+
+.laserRow{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+    .left, .right{
+        width: 50%;
+    }
+    .text{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+        background-color: #7BFFFF;
+        color: #5B8AC3;
+        align-self: center;
+        // padding: 10%;
+        font-size: 16px;
+        box-sizing: border-box; 
+        line-height: 28px !important;
+    
+    }
+    #laserImg {
+        background-image: url(../img/index/laser.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    img {
+        width:33.33%;
+        height: 100%;
+    }
+}
+
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@media(max-width: 1042px){
+    .laserRow{
+        flex-direction: column;
+        min-height: 600px;
+        .image{
+            height: 600px ;
+          //  border: solid 1px #f00;
+        }
+       
+        .left, .right {
+            width: 100%;
+            
+        }
+    }
+    #images {
+        flex-direction: column;
+        img {
+            width: 100%;
+            
+        }
+    }
+}

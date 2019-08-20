@@ -1,0 +1,149 @@
+#laserFirst {
+  height: 500px;
+  background-image: url();
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#laserFirst #laserBG {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/index/sli2.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-animation: zoomin 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.titSli {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 3000 !important;
+  font-size: 50px;
+  font-weight: bold;
+  top: 200px;
+  color: #fff;
+}
+
+.subTitSli {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 260px;
+  font-size: 50px;
+  font-weight: lighter;
+  z-index: 3000 !important;
+  color: #7bffff;
+}
+
+.laserRow {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.laserRow .left, .laserRow .right {
+  width: 50%;
+}
+
+.laserRow .text {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10%;
+  background-color: #7BFFFF;
+  color: #5B8AC3;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 28px !important;
+}
+
+.laserRow #laserImg {
+  background-image: url(../img/index/laser.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#images img {
+  width: 33.33%;
+  height: 100%;
+}
+
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media (max-width: 1042px) {
+  .laserRow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 600px;
+  }
+  .laserRow .image {
+    height: 600px;
+  }
+  .laserRow .left, .laserRow .right {
+    width: 100%;
+  }
+  #images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #images img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=laser.css.map */

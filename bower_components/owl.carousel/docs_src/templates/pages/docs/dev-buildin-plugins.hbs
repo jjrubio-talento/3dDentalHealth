@@ -1,0 +1,167 @@
+---
+title: Mousewheel Demo
+subTitle: Mousewheel
+nav: demos
+description: Mousewheel usage demo
+sort: 1
+
+tags: 
+- demo
+- external
+---
+
+<div class="owl-carousel owl-theme">
+	<div class="item"><h4>1</h4></div>
+	<div class="item"><h4>2</h4></div>
+	<div class="item"><h4>3</h4></div>
+	<div class="item"><h4>4</h4></div>
+	<div class="item"><h4>5</h4></div>
+	<div class="item"><h4>6</h4></div>
+	<div class="item"><h4>7</h4></div>
+	<div class="item"><h4>8</h4></div>
+	<div class="item"><h4>9</h4></div>
+	<div class="item"><h4>10</h4></div>
+	<div class="item"><h4>11</h4></div>
+	<div class="item"><h4>12</h4></div>
+</div>
+
+{{#markdown }}
+### Overview
+
+To add mouswheel scrolling just include the fantastic plugin jquery.mousewheel.js created by Brandon Aaron. 
+[Link to plugin GitHub page](https://github.com/brandonaaron/jquery-mousewheel)
+
+
+
+### Setup
+```
+var owl = $('.owl-carousel');
+
+owl.owlCarousel({
+	loop:true,
+	nav:true,
+	margin:10,
+	responsive:{
+		0:{
+			items:1
+		},
+		600:{
+			items:3
+		},			
+		960:{
+			items:5
+		},
+		1200:{
+			items:6
+		}
+	}
+});
+
+owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+		owl.trigger('next.owl');
+    } else {
+		owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});
+
+```
+
+{{/markdown }} 
+
+<script src="{{assets}}/vendors/jquery.mousewheel.min.js"></script>
+<script>
+$(document).ready(function(){
+	var owl = $('.owl-carousel');
+
+	owl.owlCarousel({
+		loop:true,
+		nav:true,
+		margin:10,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},			
+			960:{
+				items:5
+			},
+			1200:{
+				items:6
+			}
+		}
+	});
+
+	owl.on('mousewheel', '.owl-stage', function (e) {
+	    if (e.deltaY>0) {
+			owl.trigger('next.owl');
+	    } else {
+			owl.trigger('prev.owl');
+	    }
+	    e.preventDefault();
+	});
+})
+
+
+</script>-src="https://placehold.it/350x250&text=1"></div>
+</div>
+```
+
+## owl.video.js
+
+Currently support YouTube, Vimeo, and vzaar videos only.
+
+To add video into carousel just put `<a class="owl-video" href="_straight URL from YouTube, Vimeo, or vzaar"></a>`.
+A tag is not mandatory, can be any other tag but `"owl-video"` and href with url link is required.
+
+Thumbnails are automaticaly fetched from servers. [See demo](/demos/demo.html)
+
+#### Usage:
+```
+$('.owl-carousel').owlCarousel({
+	video:true,
+	videoHeight:200, //optional
+	videoWidth: 200 //optional
+});
+```
+#### HTML Markup:
+```
+<div class="owl-carousel">
+	<div class="article-video"><a class="owl-video" href="https://vimeo.com/23924346"></a></div>
+	<div class="article-video"><a class="owl-video" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a></div>
+	<div class="article-video"><a class="owl-video" href="https://www.youtube.com/watch?v=FBu_jxT1PkA"></a></div>
+	<div class="article-video"><a class="owl-video" href="https://www.youtube.com/watch?v=oy18DJwy5lI"></a></div>
+</div>
+```
+
+## owl.autoheight.js
+
+Adjusts stage height to highest element on viewport. No special HTML markup required. [See demo](/demos/demo.html)
+
+#### Usage:
+```
+$('.owl-carousel').owlCarousel({
+	autoHeight:true,
+	autoHeightClass: 'owl-height' //default
+});
+```
+
+## owl.animate.js
+
+Owl Carousel CSS has built-in only fade out transition. To get more fancy looking animations you have to create them yourself in CSS or use fantastic Animate.css library created by Daniel Eden https://daneden.github.io/animate.css/
+Animate functions works only with one item and only in browsers that support perspective property.
+
+To get fade out effect just set `animateOut: 'fadeOut'`
+
+#### Default options:
+```
+animateOut:false;
+animateIn:false;
+```
+Read more on demo page. --}}
+
+{{/markdown }}
+
