@@ -638,8 +638,10 @@
                         Financiación
                     </div>
                     <div class="advContTxt">
-                        Financia todos tus servicios odontológicos en nuestra clínica dental directamente con la tarjeta de El Corte Inglés y paga
-                        tu tratamiento hasta en 36 meses,   sin intereses durante el primer año
+                        Financia todos tus servicios odontológicos en nuestra clínica dental directamente con la Tarjeta de Compra El Corte Inglés y paga
+                        tu tratamiento hasta en 36 meses, sin intereses durante el primer año.
+
+                        <div style="font-size: 0.9em; line-height: 16px; margin-top: 10px;">Financiación ofrecida por Financiera El Corte Ingles E.F.C., S.A. y sujeta a su aprobación.</div>
                     </div>
                 </div>
             </div>
