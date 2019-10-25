@@ -79,7 +79,6 @@
 
 
 
- 
 
 
 
@@ -130,7 +129,8 @@
 
 
 
-?> 
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -424,8 +424,8 @@
                             Implantología
                         </div>
                         <div class="spectDesc">
-                        Es la parte de la odontología donde por medio de un material biocompatible (titanio) colocado en el hueso, 
-                        sustituimos piezas dentales perdidas y las reemplazamos por medio de prótesis fija o removible. Los implantes 
+                        Es la parte de la odontología donde por medio de un material biocompatible (titanio) colocado en el hueso,
+                        sustituimos piezas dentales perdidas y las reemplazamos por medio de prótesis fija o removible. Los implantes
                         no sólo tienen la función de sustituir piezas, además fortalecen la encía y evitan la pérdida del hueso alveolar.
                         </div>
                     </div>
@@ -447,8 +447,8 @@
                             Odontopediatria
                         </div>
                         <div class="spectDesc">
-                        En la atención del niño no existen dos casos similares. Para esta clínica dental cada paciente constituye una 
-                        peculiaridad, puesto que sus reacciones tienen que ver con las etapas de crecimiento y desarrollo, 
+                        En la atención del niño no existen dos casos similares. Para esta clínica dental cada paciente constituye una
+                        peculiaridad, puesto que sus reacciones tienen que ver con las etapas de crecimiento y desarrollo,
                         las características de la salud del paciente y otros elementos que hacen las respuestas de cada niño en particular.
                         </div>
                     </div>
@@ -462,8 +462,8 @@
                             Odontología Deportiva
                         </div>
                         <div class="spectDesc">
-                        La odontología deportiva es una disciplina que estudia la influencia de cada deporte en la salud bucodental y 
-                        que a través del cuidado oral, positiva una práctica más segura y placentera. Las afecciones bucodentales actúan directa 
+                        La odontología deportiva es una disciplina que estudia la influencia de cada deporte en la salud bucodental y
+                        que a través del cuidado oral, positiva una práctica más segura y placentera. Las afecciones bucodentales actúan directa
                         o indirectamente, alterando la puesta a punto del deportista. Trátalo en nuestra clínica dental.
                         </div>
                     </div>
@@ -485,8 +485,8 @@
                             Conservadora
                         </div>
                         <div class="spectDesc">
-                        Para nuestra clínica dentral es una rama de la odontología que, como su nombre indica, pretende conservar piezas. 
-                        Por tanto está encaminada al tratamiento de las afecciones dentales mediante empaste, endodoncias, colocación de 
+                        Para nuestra clínica dentral es una rama de la odontología que, como su nombre indica, pretende conservar piezas.
+                        Por tanto está encaminada al tratamiento de las afecciones dentales mediante empaste, endodoncias, colocación de
                         prótesis removibles, etc... con el principal propósito de conservar el diente y el tejido sano.
                         </div>
                     </div>
@@ -501,9 +501,9 @@
                             Estética Dental
                         </div>
                         <div class="spectDesc">
-                        La sonrisa es una de las expresiones faciales más importantes que diferencia al ser humano. 
-                        La utiliza como parte del lenguaje, expresando alegría, felicidad o placer. La estética dental es la parte de la 
-                        odontología donde, por medio de diferentes tipos de rehabilitaciones, solucionamos problemas relacionados con 
+                        La sonrisa es una de las expresiones faciales más importantes que diferencia al ser humano.
+                        La utiliza como parte del lenguaje, expresando alegría, felicidad o placer. La estética dental es la parte de la
+                        odontología donde, por medio de diferentes tipos de rehabilitaciones, solucionamos problemas relacionados con
                         la salud bucal y la armonía estética de la boca en su totalidad.
                         </div>
                     </div>
@@ -525,9 +525,9 @@
                             Periodoncia
                         </div>
                         <div class="spectDesc">
-                        Es la rama de la odontología que trata la enfermedad de las encías y del hueso que soporta al diente. Los malos 
-                        hábitos de higiene bucal, hábito de fumar, etc... ocasionan acumulación de restos de alimentos y otros irritantes 
-                        que favorecen la proliferación de bacterias que causan inflamación e irritación de las encías, además de la pérdida 
+                        Es la rama de la odontología que trata la enfermedad de las encías y del hueso que soporta al diente. Los malos
+                        hábitos de higiene bucal, hábito de fumar, etc... ocasionan acumulación de restos de alimentos y otros irritantes
+                        que favorecen la proliferación de bacterias que causan inflamación e irritación de las encías, además de la pérdida
                         de los soportes dentales.
                         </div>
                     </div>
@@ -639,7 +639,7 @@
                     </div>
                     <div class="advContTxt">
                         Financia todos tus servicios odontológicos en nuestra clínica dental directamente con la tarjeta de El Corte Inglés y paga
-                        tu tratamiento hasta en 36 meses
+                        tu tratamiento hasta en 36 meses,   sin intereses durante el primer año
                     </div>
                 </div>
             </div>
@@ -812,10 +812,10 @@
             </select>
             <textarea name="mensaje" required id="" cols="30" rows="10"></textarea>
             <div id="legalWarning">
-                <input type="checkbox" name="legal" required> 
-                He leído, y acepto el 
-                <span class="link" onClick="showLegalPopup()">Aviso Legal</span> y la  
-                <span class="link" onClick="showPriv()">Política de Privacidad</span> 
+                <input type="checkbox" name="legal" required>
+                He leído, y acepto el
+                <span class="link" onClick="showLegalPopup()">Aviso Legal</span> y la
+                <span class="link" onClick="showPriv()">Política de Privacidad</span>
             </div>
             <div id="teamContact">Nuestro equipo se pondrá en contacto contigo para confirmar la cita</div>
             <input type="submit" value="ENVIAR">
@@ -864,8 +864,8 @@
         </div>
     </div>
     <div id="subFooter">
-            <span class="link" onClick="showLegalPopup()">Aviso Legal</span> - 
-            <span class="link" onClick="showPriv()">Política de Privacidad</span> - 
+            <span class="link" onClick="showLegalPopup()">Aviso Legal</span> -
+            <span class="link" onClick="showPriv()">Política de Privacidad</span> -
             <span class="link" onClick="showCookies()">Política de Cookies</span>
 
     </div>
@@ -1276,7 +1276,7 @@
             su visita a sus páginas web.
             <br> No se utilizarán las cookies para recoger información de carácter personal. Encontrará más información en nuestra
             <span id="policy">
-                <!-- <span class="link" onClick="showLegalPopup()">Aviso Legal</span> - 
+                <!-- <span class="link" onClick="showLegalPopup()">Aviso Legal</span> -
                 <span class="link" onClick="showPriv()">Política de Privacidad</span> -  -->
                 <span class="link" onClick="showCookies()">Política de Cookies</span>
             </span>
@@ -1358,7 +1358,7 @@
             if (localStorage.aceptedCookies) {
                 $('#lopdMsg').hide();
             }
-            // Hamburger 
+            // Hamburger
             var hamburger = document.getElementsByClassName("hamburger")[0];
             hamburger.addEventListener("click", function () {
                 this.classList.toggle("is-active");
@@ -1383,7 +1383,7 @@
                 }
             });
 
-            // Parallaxie 
+            // Parallaxie
             $('.separator').parallaxie({
                 speed: 0.7,
                 size: "cover",
@@ -1485,7 +1485,7 @@
 
     <?php
         if($_POST){
-           
+
             $to = "info@3ddentalhealth.es";
             $subject = "[3D Dental Health] Contacto desde la Web " . $_POST["nombre"] ;
 
@@ -1499,13 +1499,13 @@
             //echo $msg;
             $adheaders =  "-f ". $_POST["email"];
             $mail = mail($to, $subject, $msg, $headers, $adheaders);
-        
+
             if($mail==1){
                 echo $success;
             }
 
             echo "<script>alert('Mensaje enviado correctamente');</script>";
-        } 
+        }
 
     ?>
 </body>
