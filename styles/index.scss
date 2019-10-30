@@ -18,13 +18,13 @@ b {
     font-weight: bold !important;
 }
 
-// Menu button show only on low screen 
-#hamburger, #menuDropdown{        
+// Menu button show only on low screen
+#hamburger, #menuDropdown{
     display: none;
 }
 
 #sidenav{
-    display: flex; 
+    display: flex;
     #logo{
         img{
             display: inline-block;
@@ -72,10 +72,10 @@ b {
         padding-right: 30px;
         flex-grow: 1;
         text-align: right;
-       
+
         display: inline-block;
         list-style: none;
-        display: flex; 
+        display: flex;
         justify-content: flex-end;
         align-items: center;
         li{
@@ -93,13 +93,13 @@ b {
                     transform: scale(1.2);
                 }
             }
-          
+
         }
     }
-   
+
     height: 100px;
 }
- 
+
 #introBlock {
     background-color: #555;
     height: 700px;
@@ -117,11 +117,11 @@ b {
             font-size: 35px;
             color: #fff;
             width: 500px;
-            
+
             padding-top: 200px;
             padding-bottom: 30px;
             border-bottom: solid 1px $colorBlue;
-            
+
         }
 
         #secIntroBlk{
@@ -130,7 +130,7 @@ b {
             font-size: 17px;
         }
     }
-   
+
 }
 
 .swiper-scrollbar{
@@ -139,15 +139,15 @@ b {
 #twentyYearsBlock {
     height: 400px;
     width: 100%;
-    display: flex; 
+    display: flex;
     #twentyImg{
         width:50%;
-        display: flex; 
+        display: flex;
         align-self: center;
         justify-content: center;
     }
     #twentyTxt{
-        display: flex; 
+        display: flex;
         align-self: center;
         >div {
             width: 500px;
@@ -205,8 +205,8 @@ b {
             padding: 10px 0 !important;
             color: $colorSubTit;
         }
-    }   
-  
+    }
+
 
 }
 
@@ -228,7 +228,7 @@ b {
 
     #specialities{
         box-sizing: border-box;
-        
+
         margin-top: 30px;
         width: 100%;
 
@@ -236,13 +236,13 @@ b {
         .specRow{
             display: flex;
             width: 100%;
-            
+
             .specBlock{
                 height:240px;
                 &.specLeft{
                     display: flex;
                     justify-content: flex-end;
-                    .scpecTitl, .spectDesc{                       
+                    .scpecTitl, .spectDesc{
                         text-align: right;
                     }
                 }
@@ -254,7 +254,7 @@ b {
                     }
                 }
                 width: 45%;
-                .spec{            
+                .spec{
                     width: 400px;
                     z-index: 10000 !important;
                     .scpecTitl{
@@ -268,8 +268,8 @@ b {
                         font-size: 15px;
                         line-height: 1.4em;
                     }
-        
-                   
+
+
                 }
             }
 
@@ -294,7 +294,7 @@ b {
         text-align: center;
         font-size: 36px;
         color:$colorTextBlue;
-       
+
     }
     #advSubTitl {
         text-align: center;
@@ -311,83 +311,83 @@ b {
             width: 50%;
             &.advContent{
                 background-color: #4685C1;
-                color: #fff;                
+                color: #fff;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .advCntBlk{        
+                .advCntBlk{
                     padding: 50px;
                     max-width: 400px;
                     .advContTit{
                         font-weight: bold;
                         font-size: 23px;
-                        margin-bottom: 30px;        
+                        margin-bottom: 30px;
                         color: #7BFFFF;
                     }
                     .advContTxt{
                         font-size: 16px ;
                         line-height: 1.5em;
                     }
-                    
+
                 }
 
                 &.left{
                   .advContTit{
                       text-align: left;
-                  }  
+                  }
                   .advContTxt{
                       text-align: left;
                   }
                 }
 
-               
-                
+
+
             }
-            
-        } 
+
+        }
         #advTeam{
-            background-image:url('../img/index/equipo.jpg');  
-            background-repeat: no-repeat;            
+            background-image:url('../img/index/equipo.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
         }
         #advEqui{
-            background-image:url('../img/index/laser.jpg');     
-            background-repeat: no-repeat;            
+            background-image:url('../img/index/laser.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
         }
         #advTrus{
-            background-image:url('../img/index/confianza.jpg'); 
-            background-repeat: no-repeat;            
+            background-image:url('../img/index/confianza.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
         }
         #advLoca{
-            background-image:url('../img/index/loca.jpg');    
-            background-repeat: no-repeat;            
+            background-image:url('../img/index/loca.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
         }
         #advVisi{
-            background-image:url('../img/index/visi.jpg');     
-            background-repeat: no-repeat;            
+            background-image:url('../img/index/visi.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
         }
         #advAdvice{
-            background-image:url('../img/index/ases.jpg');     
-            background-repeat: no-repeat;            
+            background-image:url('../img/index/ases.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
         }
         #advFina{
-            // background-image:url('../img/index/fina.png');     
-            background-image:url('../img/index/tarjeta el corte_sin2.jpg');     
-            background-repeat: no-repeat;            
+            // background-image:url('../img/index/fina.png');
+            background-image:url('../img/index/tarjeta el corte_sin2.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
-        }   
+        }
     }
     .advbtn{
         border: solid 1px #fff;
@@ -402,13 +402,13 @@ b {
         &:active {
             background-color: rgb(64, 99, 142);
         }
-        
+
     }
 }
 
 #teamBlock{
     margin-top: 120px;
-   
+
     // font-family: 'Maven Pro';
     #teamTitl{
    font-weight: bold;
@@ -479,7 +479,7 @@ b {
             }
         }
     }
-    
+
 
 }
 
@@ -528,7 +528,7 @@ b {
             color: #fff;
             border-bottom: 1px solid $colorSubTit;
         }
-        
+
     }
     select {
              -webkit-appearance: none;
@@ -549,7 +549,7 @@ b {
         height: 200px;
         box-sizing: border-box;
         width: 710px;
-        
+
         &:focus{
             outline: none !important;
             color: #fff;
@@ -570,12 +570,12 @@ b {
         #legalWarning{
             margin: 10px 0;
             font-size: 12px;
-            input{                
+            input{
                 display: inline-block;
                 width: auto;
             }
             .link {
-                cursor: pointer; 
+                cursor: pointer;
                 text-decoration: underline;
             }
         }
@@ -612,7 +612,7 @@ b {
             .infoIcon, .infoDesc {
                 display: inline-block;
                 word-wrap: wrap;
-                font-size: 15px;                
+                font-size: 15px;
             }
             .infoDesc {
                 width: calc(100% - 100px);
@@ -621,7 +621,7 @@ b {
                 width: 80px;
                 text-align: center;
             }
-        } 
+        }
     }
 }
 
@@ -639,8 +639,8 @@ b {
 }
 
 
-#legalPopup, #cookiesPopup, #privPopup{
-    position: fixed; 
+#legalPopup, #cookiesPopup, #privPopup, #conditionPopup{
+    position: fixed;
     top: 20px;
     width: 50%;
     height: 90%;
@@ -664,7 +664,7 @@ b {
         font-weight: bold;
     }
     h2{
-        font-size: 17px; 
+        font-size: 17px;
         margin: 15px 0;
         background-color: $colorBlue;
 
@@ -684,7 +684,7 @@ b {
     }
     p{
         text-align: justify;
-        font-size: 11px; 
+        font-size: 11px;
         line-height: 20px;
     }
 
@@ -704,7 +704,7 @@ b {
     li{
         font-size: 11px;
         line-height: 20px;
-        
+
     }
 
     .closeButton {
@@ -714,7 +714,7 @@ b {
         img{
             width: 20px;
         }
-        
+
     }
 }
 
@@ -734,7 +734,7 @@ b {
     bottom: -20px;
 }
 #galleryPopup{
-    position: fixed; 
+    position: fixed;
     top: 20px;
     width: 90%;
     height: auto;
@@ -759,7 +759,7 @@ b {
         img{
             width: 20px;
         }
-        
+
     }
 }
 
@@ -767,12 +767,12 @@ b {
 #subFooter{
     >div{
         cursor: pointer;
-    } 
+    }
 }
 
 #horarioSlide{
     z-index: 40000;
-    right: 6%; 
+    right: 6%;
     background-color: #fff;
     border-radius: 10px 10px 0 0;
     color: $colorBlue;
@@ -789,7 +789,7 @@ b {
             align-self: center;
             padding: 10px;
         }
-    }       
+    }
 }
 #fstSliBtn, #secSliBtn {
     display: none;
@@ -804,9 +804,9 @@ b {
         .slideContent {
             margin-top: 150px;
         }
-       
+
     }
-    
+
     &#secondSlide{
         background-image: url(../img/index/sli2.jpg);
     }
@@ -841,7 +841,7 @@ b {
     .slideTxtTwo{
         position: absolute;
         bottom: 60px;
-        border-top: solid 1px  #5B8AC3; 
+        border-top: solid 1px  #5B8AC3;
         font-size: 18px;
          line-height: 25px;
           padding-top: 20px;
@@ -864,19 +864,19 @@ b {
     }
     #twentyYearsBlock{
         flex-direction: column;
-        
+
         #twentyImg, #twentyTxt{
             width: 100%;
             // text-align: center;
             text-align: justify;
-            
+
         }
         #twentyTxt {
             margin: 0 auto;
-           
+
             > div{
                 padding: 30px;
-                width: 100%; 
+                width: 100%;
                 font-size: 16px !important;
             }
         }
@@ -885,11 +885,11 @@ b {
             img{
                 width: 80%;
                 max-width: 450px !important;
-            }            
+            }
             text-align: center;
-            display: block !important; 
+            display: block !important;
         }
-        
+
     }
 
     #specialtiesBlock
@@ -913,7 +913,7 @@ b {
                 box-sizing: border-box !important;
             }
             .specBlock{
-                
+
                 box-sizing: border-box !important;
                 width: 90% !important;
                 height: auto !important;
@@ -931,7 +931,7 @@ b {
                     line-height: 19px !important;
                     text-align: justify !important;
                 }
-            }            
+            }
             .specMid{
                 width: 80% !important;
                 // border: solid 1px #f00;
@@ -952,28 +952,28 @@ b {
     #advantagesBlock{
         #advTitl {
             font-size:28px;
-        } 
+        }
         .advContTit{
             font-size: 23px;
         }
         .advContTxt{
             font-size: 14px  !important ;
         }
-       
+
         .advRow{
             flex-direction: column;
-            height: auto; 
-           
+            height: auto;
+
             .advContent{
                 width: 100%;
-               
+
             }
             &.advleft{
                     display: flex;
                     flex-direction: column-reverse;
                 }
-            .advImg{ 
-                height: 300px; 
+            .advImg{
+                height: 300px;
                 width: 100%;
                 background-attachment: inherit !important;
                 background-size: 150% !important;
@@ -981,7 +981,7 @@ b {
             }
         }
     }
-   
+
     #teamBlock{
         margin-top: 120px;
         width: 100% !important;
@@ -1036,17 +1036,17 @@ b {
                 }
                 ul{
                     list-style-type: disc !important;
-                  
-                
+
+
                     li{
                         margin: 5px 30px !important;
-                       
-                        
+
+
                     }
                 }
             }
         }
-        
+
 
     }
 
@@ -1060,7 +1060,7 @@ b {
         #menu{
             display: none;
         }
-        height: 90px; 
+        height: 90px;
         position: fixed;
         background-color: #fff;
         width: 100%;
@@ -1077,9 +1077,9 @@ b {
             font-size: 20px;
             color: #ccc;
         }
-    
+
         input{
-            width: 90%;  
+            width: 90%;
         }
         textarea{
             margin-top: 15px;
@@ -1092,7 +1092,7 @@ b {
             width: 100%;
 
         }
-    
+
         ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             color: #fff !important;
             opacity: 1; /* Firefox */
@@ -1107,10 +1107,10 @@ b {
             #legalWarning{
                 margin: 10px 0;
                 font-size: 12px;
-                input{                
+                input{
                     display: inline-block;
                     width: auto;
-                    
+
                 }
             }
             #teamContact{
@@ -1123,16 +1123,16 @@ b {
         flex-direction: column-reverse;
         #footerLogo, #footerInfo{
             width: 100%;
-            
-        }
-    } 
 
-    #hamburger, #menuDropdown{        
-        display: block;  
+        }
     }
-    
+
+    #hamburger, #menuDropdown{
+        display: block;
+    }
+
     #financiationBlock{
-        
+
         #finMov{
             display: block;
         }
@@ -1146,9 +1146,9 @@ b {
             display:none;
         }
     }
-        
 
-    
+
+
     #menuDropdown{
         background-color: rgba(255,255,255,0.9);
         position: fixed;
@@ -1192,11 +1192,11 @@ b {
             font-size: 14px;
             padding: 10px;
         }
-        
+
             .slideContent {
                 margin-top:150px;
             }
-        
+
         line-height: 34px;
         .slideTitle{
             font-size: 18px;
@@ -1209,7 +1209,7 @@ b {
             }
         }
         .slideTxtTwo{
-            border-top: solid 1px  #5B8AC3; 
+            border-top: solid 1px  #5B8AC3;
             font-size: 18px;
              line-height: 22px;
               padding-top: 20px;
@@ -1217,10 +1217,10 @@ b {
         }
         .slideContent{
             width: 80%;
-        }    
-        
-        
-    }    
+        }
+
+
+    }
     .swiper-button-next, .swiper-button-prev {
         background-size: 10px 44px !important;
     }
@@ -1241,12 +1241,12 @@ b {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            
-            div{    
-                
+
+            div{
+
                 img{
                     width: 30px;
-                } 
+                }
                 align-self: center;
                 padding: 5px 10px !important;
             }
@@ -1255,7 +1255,7 @@ b {
             }
 
         }
-        
+
     }
 }
 
@@ -1277,15 +1277,15 @@ b {
             text-decoration: underline;
             cursor: pointer;
         }
-       
+
     }
-    
+
     .lopdBtn {
         //width: 100px !important;
         padding: 10px;
         background-color: #00c6d7;
         color: #fff;
-        
+
         border: 0;
         border-radius: 7px;
     }

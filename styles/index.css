@@ -2120,7 +2120,7 @@ b {
   text-decoration: underline;
 }
 
-#legalPopup, #cookiesPopup, #privPopup {
+#legalPopup, #cookiesPopup, #privPopup, #conditionPopup {
   position: fixed;
   top: 20px;
   width: 50%;
@@ -2140,16 +2140,16 @@ b {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-#legalPopup p, #cookiesPopup p, #privPopup p {
+#legalPopup p, #cookiesPopup p, #privPopup p, #conditionPopup p {
   margin-bottom: 10px;
 }
 
-#legalPopup h1, #cookiesPopup h1, #privPopup h1 {
+#legalPopup h1, #cookiesPopup h1, #privPopup h1, #conditionPopup h1 {
   font-size: 25px;
   font-weight: bold;
 }
 
-#legalPopup h2, #cookiesPopup h2, #privPopup h2 {
+#legalPopup h2, #cookiesPopup h2, #privPopup h2, #conditionPopup h2 {
   font-size: 17px;
   margin: 15px 0;
   background-color: #6FA6DD;
@@ -2157,25 +2157,25 @@ b {
   color: #fff;
 }
 
-#legalPopup h3, #cookiesPopup h3, #privPopup h3 {
+#legalPopup h3, #cookiesPopup h3, #privPopup h3, #conditionPopup h3 {
   font-weight: bold;
   line-height: 20px;
   font-size: 13px;
 }
 
-#legalPopup h4, #cookiesPopup h4, #privPopup h4 {
+#legalPopup h4, #cookiesPopup h4, #privPopup h4, #conditionPopup h4 {
   font-weight: bold;
   font-size: 11px;
   line-height: 20px;
 }
 
-#legalPopup p, #cookiesPopup p, #privPopup p {
+#legalPopup p, #cookiesPopup p, #privPopup p, #conditionPopup p {
   text-align: justify;
   font-size: 11px;
   line-height: 20px;
 }
 
-#legalPopup ol, #cookiesPopup ol, #privPopup ol {
+#legalPopup ol, #cookiesPopup ol, #privPopup ol, #conditionPopup ol {
   line-height: 20px;
   list-style: decimal !important;
   padding-left: 20px;
@@ -2183,7 +2183,7 @@ b {
           box-sizing: border-box;
 }
 
-#legalPopup ul, #cookiesPopup ul, #privPopup ul {
+#legalPopup ul, #cookiesPopup ul, #privPopup ul, #conditionPopup ul {
   line-height: 20px;
   list-style: disc !important;
   padding-left: 20px;
@@ -2191,18 +2191,18 @@ b {
           box-sizing: border-box;
 }
 
-#legalPopup li, #cookiesPopup li, #privPopup li {
+#legalPopup li, #cookiesPopup li, #privPopup li, #conditionPopup li {
   font-size: 11px;
   line-height: 20px;
 }
 
-#legalPopup .closeButton, #cookiesPopup .closeButton, #privPopup .closeButton {
+#legalPopup .closeButton, #cookiesPopup .closeButton, #privPopup .closeButton, #conditionPopup .closeButton {
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
-#legalPopup .closeButton img, #cookiesPopup .closeButton img, #privPopup .closeButton img {
+#legalPopup .closeButton img, #cookiesPopup .closeButton img, #privPopup .closeButton img, #conditionPopup .closeButton img {
   width: 20px;
 }
 

@@ -639,7 +639,8 @@
                     </div>
                     <div class="advContTxt">
                         Financia todos tus servicios odontológicos en nuestra clínica dental directamente con la Tarjeta de Compra El Corte Inglés y paga
-                        tu tratamiento hasta en 36 meses, sin intereses durante el primer año.
+                        tu tratamiento hasta 12 meses sin intereses o hasta en 36 meses, sin intereses durante los primeros 12 meses.
+                        <span class="link" onClick="showConditionPopup()" style="cursor: pointer; font-size: 0.9em;">*Ver Condiciones</span>
 
                         <div style="font-size: 0.9em; line-height: 16px; margin-top: 10px;">Financiación ofrecida por Financiera El Corte Ingles E.F.C., S.A. y sujeta a su aprobación.</div>
                     </div>
@@ -868,7 +869,8 @@
     <div id="subFooter">
             <span class="link" onClick="showLegalPopup()">Aviso Legal</span> -
             <span class="link" onClick="showPriv()">Política de Privacidad</span> -
-            <span class="link" onClick="showCookies()">Política de Cookies</span>
+            <span class="link" onClick="showCookies()">Política de Cookies</span> -
+            <span class="link" onClick="showConditionPopup()">Condiciones de Financiación</span>
 
     </div>
 
@@ -1017,8 +1019,8 @@
 
     <div id="privPopup">
         <div class="closeButton" onclick="showPriv()">
-                <img src="img/index/close.png" alt="Cerrar">
-            </div>
+            <img src="img/index/close.png" alt="Cerrar">
+        </div>
         <h1 id="privPol">Política de Privacidad</h1>
 
         <h2>Protección de datos de carácter personal según la LOPD</h2>
@@ -1180,7 +1182,7 @@
         <p>3D Dental Health, S.L., con CIF/NIF nº: B24673360 y dirección en: C/ Fray Luis De León, No 29 Semisótano, 24005 -
             León (León), no puede asumir ninguna responsabilidad derivada del uso incorrecto, inapropiado o ilícito de la
             información aparecida en las páginas web de www.3ddentalhealth.es</p>
-	<p>Que 3D Dental Health, S.L. consta inscrita en el Registro Mercantil Central de León, Tomo 1285, Folio 1, Hoja LE-23.220, inscripción 1a.</p>
+	    <p>Que 3D Dental Health, S.L. consta inscrita en el Registro Mercantil Central de León, Tomo 1285, Folio 1, Hoja LE-23.220, inscripción 1a.</p>
         <p>Con los límites establecidos en la ley, 3D Dental Health, S.L. no asume ninguna responsabilidad derivada de la falta
             de veracidad, integridad, actualización y precisión de los datos o informaciones que se contienen en sus páginas web.
         </p>
@@ -1200,9 +1202,32 @@
             de los presentes formularios, sus datos personales quedarán incorporados y serán tratados en los ficheros de
             3D Dental Health, S.L. con el fin de poderle prestar y ofrecer nuestros servicios así como para informarle de
             las mejoras del sitio Web.</p>
-	<p>Le informamos también de que tendrá la posibilidad en todo momento de ejercer los derechos de acceso, rectificación,
-            cancelación, oposición, limitación y portabilidad de sus datos de carácter personal, manera gratuita mediante email a: info@3ddentalhealth.es
-            o en la dirección C/ Fray Luis De León, No 29 Semisótano, 24005 - León (León).</p>
+        <p>Le informamos también de que tendrá la posibilidad en todo momento de ejercer los derechos de acceso, rectificación,
+                cancelación, oposición, limitación y portabilidad de sus datos de carácter personal, manera gratuita mediante email a: info@3ddentalhealth.es
+                o en la dirección C/ Fray Luis De León, No 29 Semisótano, 24005 - León (León).</p>
+    </div>
+
+    <div id="conditionPopup">
+        <div class="closeButton" onclick="showConditionPopup()">
+            <img src="img/index/close.png" alt="Cerrar">
+        </div>
+        <h2>Financiación hasta en 12 meses sin intereses</h2>
+        <p>Financiación sin intereses hasta en 12 meses. Gastos de gestión financiados: 9€. Financiación ofrecida por Financiera
+        El Corte Inglés E.F.C., S.A. y sujeta a su aprobación. Intereses subvencionados por 3D DENTAL HEALTH SL. Por compras superiores
+        a 300€. Cuota mínima 30€. Desde el 1 de septiembre de 2019 al 29 de febrero de 2020. Ejemplos de financiación de compras: - Importe: 300€,
+        aplazamiento a 10 meses sin intereses, 30,90€/mes, TIN 0%, TAE 6,69%, gastos de gestión: 9€, importe total del crédito 309€, importe
+        total adeudado 309€. - Importe: 1.150€, aplazamiento a 12 meses sin intereses, 96,58€/mes, TIN 0%, TAE 1,45%, gastos de gestión 9€,
+        importe total del crédito 1.159€, importe total adeudado: 1.159€. Redondeo de decimales en la última cuota.</p>
+        <h2>Financiación hasta en 36 meses</h2>
+        <p>Financiación desde 13 hasta 36 meses siendo los 12 primeros sin intereses. Gastos de gestión financiados: 12 €. Tramo sin intereses
+        subvencionado por 3D DENTAL HEALTH SL. Financiación ofrecida por Financiera El Corte Inglés E.F.C., S.A. y sujeta a su aprobación.
+        Para compras superiores a 500 €. Cuota mínima 32 €. Desde el 01 de septiembre de 2019 al 29 de febrero de 2020. Ejemplos de financiación
+        de compras: -Importe: 500 €, aplazamiento a 13 meses, TAE 4,35 %, 12 primeras cuotas de 39,38 €/mes, TIN 0 % y una última cuota de 39,97 €/mes,
+        TIN 16 %, gastos de gestión 12 €, Importe total del crédito: 512 €, importe total adeudado: 512,53 €. -Importe 1.000 €, aplazamiento a 24 meses,
+        TAE 5,39 %, 12 primeras cuotas de 42,17 €/mes, TIN 0 %, 11 cuotas de 45,91 €/mes y una última cuota de 45,88 €, TIN 16 %, gastos de gestión 12 €,
+        Importe total del crédito: 1.012 €, importe total adeudado: 1.056,93 €. -Importe 3.000 €, aplazamiento a 36 meses, TAE 7,57 %, 12 primeras cuotas
+        de 83,67 €/mes, TIN 0 %, 23 cuotas de 98,32 €/mes y una última cuota de 98,23 €, TIN 16 %, gastos de gestión 12 €, Importe total del crédito: 3.012 €,
+        importe total adeudado: 3.363,63 €</p>
     </div>
 
     <div id="galleryPopup">
@@ -1444,6 +1469,10 @@
 
         function showLegalPopup() {
             $('#legalPopup').toggle(400);
+        }
+
+        function showConditionPopup() {
+            $('#conditionPopup').toggle(400);
         }
 
         function showDeleteCookiesPopup() {
