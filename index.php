@@ -764,9 +764,16 @@
                     <li>Operadora de Radiodiagnóstico Dental</li>
                 </ul>
             </div>
+
+            <div class="person">
+                <div class="name">Celia Méndez Bouzán </div>
+                <ul>
+                    <li>Técnico Superior en Higiene Bucodental</li>
+                </ul>
+            </div>
         </div>
 
-
+<!--
         <div class="separator">
             Auxiliar
         </div>
@@ -777,7 +784,7 @@
                     <li>Auxiliar de Clínica</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <div class="separator">
             Recepcion
         </div>
