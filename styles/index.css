@@ -1877,6 +1877,13 @@ b {
   margin: 13px;
 }
 
+#teamBlock .teamRow .person .number {
+  color: #5B8AC3;
+  font-weight: regular;
+  font-size: 12px;
+  margin: 13px;
+}
+
 #teamBlock .teamRow .person ul {
   list-style-type: disc !important;
   line-height: 1.1em;
@@ -2549,6 +2556,12 @@ b {
     color: #5B8AC3;
     font-weight: bold;
     font-size: 15px;
+    margin: 13px;
+  }
+  #teamBlock .teamRow .personCenter .number {
+    color: #5B8AC3;
+    font-weight: regular;
+    font-size: 12px;
     margin: 13px;
   }
   #teamBlock .teamRow .personCenter ul {

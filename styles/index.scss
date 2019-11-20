@@ -450,6 +450,12 @@ b {
                 font-size: 20px;
                 margin: 13px;
             }
+            .number {
+                color: $colorTextBlue;
+                font-weight: regular;
+                font-size: 12px;
+                margin: 13px;
+            }
             ul{
                 list-style-type: disc !important;
                 line-height: 1.1em;
@@ -1032,6 +1038,12 @@ b {
                     color: $colorTextBlue;
                     font-weight: bold;
                     font-size: 15px;
+                    margin: 13px;
+                }
+                .number {
+                    color: $colorTextBlue;
+                    font-weight: regular;
+                    font-size: 12px;
                     margin: 13px;
                 }
                 ul{

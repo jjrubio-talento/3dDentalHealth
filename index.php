@@ -684,6 +684,7 @@
         <div class="teamRow">
             <div class="person">
                 <div class="name">Dr. César Díez de Baldeón Fernández </div>
+                <div class="number">Número de colegiado 24000848</div>
                 <ul>
                     <li>Licenciado en Odontología</li>
                     <li>Especialista en Implantología y Cirugía Oral Avanzada</li>
@@ -707,16 +708,23 @@
         </div>
         <div class="teamRow">
             <div class="person">
-                <div class="name">Dr. Roberto Adrián Hernández Martínez </div>
+                <div class="name">Dr. Adrián Hernández Martínez </div>
+                <div class="number">Número de colegiado 24001022</div>
                 <ul>
                     <li>Licenciado en Odontología</li>
                     <li>Máster Oficial de Endodoncia Avanzada de la Universidad Europea de Madrid</li>
                     <li>Profesor Colaborador de Postgrado Modular de Endodoncia Avanzada del Ilustre Colegio de Odontólogos y
                         Estomatólogos de León</li>
+                    <li>Ganador Beca AEDE (Asociación Española de Endodoncia) al mejor trabajo de investigación de postgrado</li>
+                    <li>Autor y presentador de casos clínicos, póster y comunicaciones orales en Congresos de Endodoncia</li>
+                    <li>Miembro Titular de AEDE (Asociación Española de Endodoncia)</li>
+                    <li>Vocal Comité Organizador del XXXII Congreso Nacional de Endodoncia</li>
+                    <li>Dedicación exclusiva a la práctica de la endodoncia en León</li>
                 </ul>
             </div>
             <div class="person">
                 <div class="name">Dra. Camino Hernández Domínguez </div>
+                <div class="number">Número de colegiado 24001047</div>
                 <ul>
                     <li>Licenciada en Odontología</li>
                     <li>Máster oficial en Ortodoncia</li>
@@ -731,6 +739,7 @@
         <div class="teamRow">
             <div class="person">
                 <div class="name">Dra. Cristina Cordero de Francisco </div>
+                <div class="number">Número de colegiado 24001174</div>
                 <ul>
                     <li>Licenciada en Odontología</li>
                     <li>Máster Cirugía Búcal, Implantología y Periodoncia por la Universidad de León.</li>
@@ -740,6 +749,7 @@
             </div>
             <div class="person">
                 <div class="name">Dra. Eva Carro Sánchez</div>
+                <div class="number">Número de colegiado 24001032</div>
                 <ul>
                     <li>Licenciada en Odontología</li>
                 </ul>
@@ -752,6 +762,7 @@
         <div class="teamRow">
             <div class="person">
                 <div class="name">Tamara Fernández Rodríguez </div>
+                <div class="number"></div>
                 <ul>
                     <li>Técnico Superior en Higiene Bucodental</li>
                     <li>Operadora de Radiodiagnóstico Dental</li>
@@ -759,6 +770,7 @@
             </div>
             <div class="person">
                 <div class="name">Selene Torres Villacorta </div>
+                <div class="number"></div>
                 <ul>
                     <li>Técnico Superior en Higiene Bucodental</li>
                     <li>Operadora de Radiodiagnóstico Dental</li>
@@ -767,6 +779,7 @@
 
             <div class="person">
                 <div class="name">Celia Méndez Bouzán </div>
+                <div class="number"></div>
                 <ul>
                     <li>Técnico Superior en Higiene Bucodental</li>
                 </ul>
@@ -791,6 +804,7 @@
         <div class="teamRow">
             <div class="personCenter">
                 <div class="name">Elena Guerrero Cepedano</div>
+                <div class="number"></div>
                 <!-- <ul>
                     <li>Auxiliar de Clínica</li>
                 </ul> -->
