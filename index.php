@@ -541,7 +541,7 @@
                             Micro-Endodoncia
                         </div>
                         <div class="spectDesc">
-                            En 3D DENTAL HEALTH aunamos personal especializado y la tecnología más vanguardista del mercado. Por eso, disponemos de los <a class="link" href="#especialista" >mejores profesionales</a> que realizan todas las fases del tratamiento bajo la magnificación e iluminación que nos aporta el <span class="link" onclick="alert('abrir galeria');">microscopio operativo</span>, herramienta puntera y revolucionaria en la endodoncia moderna.
+                            En 3D DENTAL HEALTH aunamos personal especializado y la tecnología más vanguardista del mercado. Por eso, disponemos de los <a class="link" href="#especialista" >mejores profesionales</a> que realizan todas las fases del tratamiento bajo la magnificación e iluminación que nos aporta el <span class="link" onclick="galleryMicroPopup()">microscopio operativo</span>, herramienta puntera y revolucionaria en la endodoncia moderna.
                         </div>
                     </div>
                 </div>
@@ -1334,6 +1334,31 @@
         </div>
     </div>
 
+    <div id="galleryMicroPopup">
+        <div class="closeButton" onclick="galleryMicroPopup()">
+            <img src="img/index/close.png" alt="Cerrar">
+        </div>
+
+        <div class="owl-carousel owl-theme owl-loaded">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+                    <div class="owl-item">
+                        <img src="img/micro/1.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/micro/2.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/micro/3.jpg" alt="">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/micro/4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="lopdMsg">
         <!-- <div> Utilizamos cookies propias y de terceros para mejorar     su experiencia y nuestros servicios, analizando la navegación en nuestro Sitio Web. Si continúa navegando, usted está aceptando su uso. Puede obtener más información en nuestra <span id="policy" onclick="showLegalPopup()">Política de privacidad y cookies</span></div><button id="closeMsg" onclick="$('#lopdMsg').hide()">Aceptar</button> -->
         <div style="flex-grow: 1">El sitio web www.3ddentalhealth.es utiliza cookies propias y de terceros para recopilar información que ayuda a optimizar
@@ -1547,6 +1572,10 @@
 
         function galleryPopup() {
             $('#galleryPopup').toggle(0);
+        }
+
+        function galleryMicroPopup() {
+            $('#galleryMicroPopup').toggle(0);
         }
     </script>
 

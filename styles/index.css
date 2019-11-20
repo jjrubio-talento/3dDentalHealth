@@ -1649,7 +1649,7 @@ b {
 #specialtiesBlock #specialities .specRow .specBlock.specLeft .scpecTitl .link, #specialtiesBlock #specialities .specRow .specBlock.specLeft .spectDesc .link {
   color: #5B8AC3 !important;
   white-space: nowrap;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -2240,7 +2240,7 @@ b {
   bottom: -20px;
 }
 
-#galleryPopup {
+#galleryPopup, #galleryMicroPopup {
   position: fixed;
   top: 20px;
   width: 90%;
@@ -2261,13 +2261,13 @@ b {
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-#galleryPopup .closeButton {
+#galleryPopup .closeButton, #galleryMicroPopup .closeButton {
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
-#galleryPopup .closeButton img {
+#galleryPopup .closeButton img, #galleryMicroPopup .closeButton img {
   width: 20px;
 }
 
