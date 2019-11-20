@@ -1646,6 +1646,17 @@ b {
   text-align: right;
 }
 
+#specialtiesBlock #specialities .specRow .specBlock.specLeft .scpecTitl .link, #specialtiesBlock #specialities .specRow .specBlock.specLeft .spectDesc .link {
+  color: #5B8AC3 !important;
+  white-space: nowrap;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#specialtiesBlock #specialities .specRow .specBlock.specLeft .scpecTitl .link:hover, #specialtiesBlock #specialities .specRow .specBlock.specLeft .spectDesc .link:hover {
+  text-decoration: underline;
+}
+
 #specialtiesBlock #specialities .specRow .specBlock.specRight {
   display: -webkit-box;
   display: -ms-flexbox;

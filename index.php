@@ -493,7 +493,6 @@
                 </div>
             </div>
 
-
             <div class="specRow rowLeft">
                 <div class="specBlock specLeft" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="55%">
                     <div class="spec ">
@@ -533,6 +532,23 @@
                     </div>
                 </div>
                 <!-- </div> -->
+            </div>
+
+            <div class="specRow rowLeft">
+                <div class="specBlock specLeft" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="55%">
+                    <div class="spec">
+                        <div class="scpecTitl">
+                            Micro-Endodoncia
+                        </div>
+                        <div class="spectDesc">
+                            En 3D DENTAL HEALTH aunamos personal especializado y la tecnología más vanguardista del mercado. Por eso, disponemos de los <a class="link" href="#especialista" >mejores profesionales</a> que realizan todas las fases del tratamiento bajo la magnificación e iluminación que nos aporta el <span class="link" onclick="alert('abrir galeria');">microscopio operativo</span>, herramienta puntera y revolucionaria en la endodoncia moderna.
+                        </div>
+                    </div>
+                </div>
+                <div class="specMid" data-aos="fade-down" data-aos-offset="55%" data-aos-duration="1500">
+                    <img src="img/index/ico/endodoncia.png" alt="">
+                </div>
+                <div class="specBlock emptyBlock"></div>
             </div>
 
         </div>
@@ -703,7 +719,7 @@
             </div>
         </div>
 
-        <div class="separator">
+        <div class="separator" id="especialista">
             Dpto. MÉDICO ESPECIALISTA
         </div>
         <div class="teamRow">
